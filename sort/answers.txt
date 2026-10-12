@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: Slow in random but very fast in sorted. Bubble Sort has a best case of O(n) when the list is already sorted.
+
+sort2 uses: Merge sort
+
+How do you know?: Consistently low times across all scenarios. Merge Sort is O(n log n).
+
+sort3 uses: Selection sort
+
+How do you know?: Slow in random and slow in sorted. Selection Sort is always O(n²), regardless of whether the list is already sorted or not.

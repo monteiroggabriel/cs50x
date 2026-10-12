@@ -1,0 +1,27 @@
+Based on the averages calculated from the database ( energy ~= 0.659, valence ~= 0.484, and danceability ~= 0.716)
+this listener's audio aura could be characterized as energetic and danceable, but emotionally neutral to slightly
+melancholic. The high danceability (0.72) suggests they enjoy rhythmic, groove-driven music that makes them want to move.
+The moderate-to-high energy (0.66) indicates a preference for lively, intense tracks rather than calm or acoustic ones.
+However, the valence sitting right around the midpoint (0.48) means their music isn't overwhelmingly happy or sad. Overall,
+the aura could be described as "upbeat but reflective".
+
+Using simple averages of energy, valence, and danceability across the top 100 songs may not be very representative for several reasons:
+
+1. A listener might have a few extremely high-energy songs and many calm ones, but the average would show a moderate energy level, hiding that contrast.
+
+2. The top 100 songs are treated equally, but the listener may have played some songs hundreds of times and others only a few times. A song played on
+repeat likely reflects the listener's mood more than one played once.
+
+3. A listener's taste may shift throughout the year (e.g., upbeat in summer, melancholic in winter). Averaging across the entire year erases those seasonal
+or emotional phases.
+
+4. Energy, valence, and danceability are just three of many audio features. Ignoring features like acousticness, instrumentalness, speechiness, or tempo means
+the aura misses important dimensions of the listener's taste.
+
+Better approaches could include:
+
+- Weighted averages based on play count or listening time.
+
+- Clustering songs into groups (e.g., using k-means) to identify distinct "moods" in the listener's library, rather than blending everything into one average.
+
+- Time-weighted analysis that gives more importance to recently or frequently played songs.
